@@ -1,6 +1,4 @@
-# Vreko
-
-Part of [vreko.dev](https://vreko.dev) — the intelligence layer for AI-native development.
+[<img width="2172" height="724" alt="vreko-lockup" src="https://github.com/user-attachments/assets/3698fa6f-69ff-42f6-9152-faefc1001fd7" />](https://vreko.dev) — the intelligence layer for AI-native development.
 
 ## What this is
 
