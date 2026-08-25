@@ -16,7 +16,7 @@ be inspected, versioned and depended on:
 | --- | --- | --- |
 | CLI | [`vreko-cli`](https://github.com/vreko-dev/vreko-cli) | [`@vreko/cli`](https://www.npmjs.com/package/@vreko/cli) |
 | MCP server | [`mcp-server`](https://github.com/vreko-dev/mcp-server) | [`vreko-mcp-server`](https://www.npmjs.com/package/vreko-mcp-server) |
-| VS Code extension | [`vscode`](https://github.com/vreko-dev/vscode) | see the repository — the marketplace listing is still published under the previous product name |
+| VS Code extension | [`vscode`](https://github.com/vreko-dev/vscode) | **not currently installable** — the previous listing was unpublished and no Vreko-identified listing exists yet |
 
 `vreko-cli` and `mcp-server` are **distribution and documentation surfaces**: they carry
 the package manifest, changelog, license and docs that ship with each release. The
