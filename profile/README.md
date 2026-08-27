@@ -49,22 +49,19 @@ Apache-2.0 open standard for committed repository intelligence, maintained at
 **Vreko does not own workspace.json.** It is a separate project with its own
 organization, governance and release authority, and it is usable without Vreko.
 
-## Archived
+## Retired packages
 
-Superseded by the workspace.json standard, or retired in the rename from SnapBack to
-Vreko. These remain readable for historical URLs only.
+Five packages from before the rename — `config`, `contracts`, `events`, `sdk`,
+`infrastructure` — are no longer public. They were superseded by the
+[workspace.json](https://workspacejson.dev) standard or simply deprecated, they had no
+forks and no external contributors, and keeping a retired product name on the
+organization's public listing said something about Vreko that is no longer true.
 
-| Repository | Status |
-| --- | --- |
-| [`contracts`](https://github.com/vreko-dev/contracts) | Superseded by [`@workspacejson/spec`](https://www.npmjs.com/package/@workspacejson/spec) |
-| [`config`](https://github.com/vreko-dev/config) | Deprecated |
-| [`events`](https://github.com/vreko-dev/events) | Deprecated |
-| [`sdk`](https://github.com/vreko-dev/sdk) | Deprecated |
-| [`infrastructure`](https://github.com/vreko-dev/infrastructure) | Deprecated |
+They are retained privately rather than deleted, so their history is intact.
 
-Their repository descriptions still read "package for SnapBack". GitHub does not allow
-metadata edits on archived repositories, and unarchiving them purely to change a
-description would misrepresent them as active.
+`@snapback/contracts` was superseded by
+[`@workspacejson/spec`](https://www.npmjs.com/package/@workspacejson/spec). The other
+four have no successor: they were internal packages that stopped being used.
 
 ## Links
 
