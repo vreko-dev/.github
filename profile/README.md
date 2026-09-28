@@ -1,7 +1,13 @@
 # Vreko
-[<img width="2172" height="724" alt="vreko-lockup" src="https://github.com/user-attachments/assets/3698fa6f-69ff-42f6-9152-faefc1001fd7" />](https://vreko.dev) — the intelligence layer for AI-native development.
+[<img width="2172" height="724" alt="vreko-lockup" src="https://github.com/user-attachments/assets/3698fa6f-69ff-42f6-9152-faefc1001fd7" />](https://vreko.dev)
 
-## Product boundary
+Vreko is testing a **portable evidence-authority layer for AI-assisted professional work**: proposition-specific evidence, source authority, attribution, uncertainty, correction/revocation, and bounded recipient projection.
+
+The **Operator Passport** is a controlled projection of that state. **Ask the Passport** is a query interface over an authorized projection. Generic permission/control infrastructure and query-speed advantages are not the differentiation claim.
+
+## Current product boundary
+
+The current private Alpha asks whether a consequential recipient can legitimately rely on Vreko-resolved proposition state without reconstructing every underlying source, and whether competent native/commodity systems can independently construct an equivalently trusted portable state.
 
 Read this first, because it determines what you will and will not find here.
 
@@ -18,7 +24,7 @@ be inspected, versioned and depended on:
 | MCP server | [`mcp-server`](https://github.com/vreko-dev/mcp-server) | [`vreko-mcp-server`](https://www.npmjs.com/package/vreko-mcp-server) |
 | VS Code extension | [`vscode`](https://github.com/vreko-dev/vscode) | **not currently installable** — the previous listing was unpublished and no Vreko-identified listing exists yet |
 
-`vreko-cli` and `mcp-server` are **distribution and documentation surfaces**: they carry
+`vreko-cli` and `mcp-server` are **legacy developer-tooling distribution and documentation surfaces**: they carry
 the package manifest, changelog, license and docs that ship with each release. The
 implementation is built from the private core, so you will not find it in those
 repositories. This is deliberate, and stated there too.
